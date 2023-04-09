@@ -1,0 +1,173 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.favButton{
+  background-color: rgba(136, 136, 136, 0.116);
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #235069;
+}
+h2{
+  text-align: center;
+  color: #235069;
+  font-weight: 800;
+  font-size: 3rem;
+}
+.contactClass{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+nav ul li{
+  display: inline-block;
+  justify-content: center;
+  margin-right: 55px;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+a:hover{
+  color: rgb(136, 136, 136);
+} 
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  bottom: 0;
+  width: 90%;
+  height: 40px;
+  margin-top: 2rem;
+}
+
+footer > img{
+  width: 200px;
+  margin: 0;
+}
+footer > p{
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+form{
+  background: (0, 0, 0, 0.4);
+  background-color:#d7dee642;
+  margin: auto;
+  width: 90%;
+  max-width: 500px;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px -5px rgb(0 0 0 / 90%);   
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  border: 1.5px solid rgb(136, 136, 136);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imgDoc{
+  border-radius: 50%;
+}
+
+.card:hover{
+  border: 1.5px solid rgb(89, 90, 79);
+}
+
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 90vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.card-grid{
+  text-align: center;
+}
+.datos{
+  text-align: center;
+  background: (0, 0, 0, 0.4);
+  background-color:#d7dee642;
+  margin: auto;
+  width: 90%;
+  max-width: 500px;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px -5px rgb(0 0 0 / 90%);   
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.colorButton{
+  background-color: #235069;
+    color: #FAFAFA;
+    font-size: 1.1rem;
+    padding: .5em;
+    font-weight: 300;
+    font-family: 'Roboto'sans-serif;
+    border-radius: .5em
+}
+
+table {
+ border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dark{
+  background-color: #12121296;
+  color: white;
+}
+.dark > a {
+  color: white;
+}
